@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="coneiner-fluid">
+        <div class="row bg-dark inside align-items-center justify-content-around">
+            <div class="col-xl-4 order-1 order-md-0 text-center">
+                <span class="icons">
+                    <i class="bi bi-cursor-fill"></i>
+                    Telavi,Georgia
+                </span>
+                <span class="icons">
+                    <i class="bi bi-telephone-fill"></i>
+                    +995-567-432-534
+                </span>
+            </div>
+            <div class="col-xl-4 text-center">
+                <span class="icons">
+                    <i class="bi bi-flag-fill"></i>
+                    <div class="dropdown d-inline-block">
+                        <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          ENG
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">GE</a></li>
+                          <li><a class="dropdown-item" href="#">RUS</a></li>
+                        </ul>
+                      </div>
+                </span>
+                <span class="icons">
+                    <i class="bi bi-currency-dollar"></i>
+                    <div class="dropdown  d-inline-block">
+                        <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          EUR
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">GEL</a></li>
+                          <li><a class="dropdown-item" href="#">RUB</a></li>
+                        </ul>
+                      </div>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid justify-content-around">
+                  <a class="navbar-brand" href="#">DreemHotel</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Accomodations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main >
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slider-imgs/img-01.jpg" class="d-block w-100 h-100 text-center" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider-imgs/img-02.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider-imgs/img-03.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section>
+        <div class="conteiner-fluid">
+          <div class="row">
+            <h2 class="mb-10 text-center">Rooms And Price</h2>
+            <div class="col-xl-3 col-md-6 ">
+              <img class="img-fluid" src="./img/rooms-img/regular.jpg" alt="hotel-room">
+              <div class="about">
+                <h3 class="text-center">Room 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <span class="prace"><b>Prace</b> $250/Daily</span>
+                <a type="button" class="btn btn-dark">See more</a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img class="img-fluid" src="./img/rooms-img/room-01.jpg" alt="hotel-room">
+              <div class="about">
+                <h3 class="text-center">Room 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <span class="prace"><b>Prace</b> $380/Daily</span>
+                <a type="button" class="btn btn-dark">See more</a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img class="img-fluid" src="./img/rooms-img/room-04.jpg" alt="hotel-room">
+              <div class="about">
+                <h3 class="text-center">Room 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <span class="prace"><b>Prace</b> $250/Daily</span>
+                <a type="button" class="btn btn-dark">See more</a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <img class="img-fluid" src="./img/rooms-img/room-05.jpg" alt="hotel-room">
+              <div class="about">
+                <h3 class="text-center">Room 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <span class="prace"><b>Prace</b> $280/Daily</span>
+                <a type="button" class="btn btn-dark">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+          <div class="conteiner-fluid">
+            <h2>meals </h2>
+            <ul class="nav nav-tabs bg-dark justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active bg-dark text-white" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Breakfast</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link bg-dark text-white" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Supper</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row">
+                      <div class="col-xl-4">
+                        <img class="img-fluid" src="./img/meals-imgs/img-01.jpg" alt="">
+                        <div class="descriptionpreakfast">
+                          <h3 class="text-center"> Type 1</h3>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4">
+                        <img class="img-fluid" src="./img/meals-imgs/img-02.jpg" alt="">
+                        <div class="descriptionpreakfast">
+                          <h3 class="text-center"> Type 1</h3>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                        </div>
+                      </div>
+
+                      <div class="col-xl-4">
+                        <img class="img-fluid" src="./img/meals-imgs/img-03.jpg" alt="">
+                        <div class="descriptionpreakfast">
+                          <h3 class="text-center"> Type 1</h3>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                          <div class="row">
+                            <div class="col-xl-4">
+                              <img class="img-fluid" src="./img/meals-imgs/img-04.jpg" alt="">
+                              <div class="descriptionpreakfast">
+                                <h3 class="text-center"> Type 1</h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4">
+                              <img class="img-fluid" src="./img/meals-imgs/img-05.jpg" alt="">
+                              <div class="descriptionpreakfast">
+                                <h3 class="text-center"> Type 1</h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4">
+                              <img class="img-fluid" src="./img/meals-imgs/img-06.jpg" alt="">
+                              <div class="descriptionpreakfast">
+                                <h3 class="text-center"> Type 1</h3>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, 
+                              </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer class=" bg-light">
+        <div class="row justify-content-center text-center">
+            <div class="col-10">
+                <a class="text-decoration-none" href="#"><i class="bi bi-facebook soc"></i></a>
+                <a class="text-decoration-none" href="#"><i class="bi bi-instagram soc"></i></a>
+                <a class="text-decoration-none" href="#"><i class="bi bi-youtube soc"></i></a>
+            </div>
+            <div class="row bg-dark inside justify-content-center">
+              <div class="col-md-4">
+                &copy; Created 2021
+              </div>
+              <div class="col-md-4">
+                Dream Hotel
+              </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
